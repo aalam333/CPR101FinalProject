@@ -24,6 +24,8 @@ int main(void) {
 		printf("4 - Tokenizing\n"); // 4 for tokenizing
 		printf("0 - Exit\n"); // 0 for exiting the program
 
+		printf("Which module to run?\n"); // prompting the user for an input
+
 		fgets(buff, 10, stdin); // getting user input and storing the valid input
 
 		// matches input with its respective number and calls the function
